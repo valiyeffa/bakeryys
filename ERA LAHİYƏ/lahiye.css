@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&family=Raleway:wght@400&family=Sigmar&family=Ysabeau&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+body{
+    background-color: #F1BD7A;
+    
+}
+
+.header{
+    background-color: rgba(241, 189, 122, 0.3);
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    letter-spacing: 1em;
+    padding: 0 3%;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    
+    
+}
+
+.header .im{
+    padding-left: 25px;
+}
+
+
+ .head2{
+    margin-top: -5rem;
+    background-image: url(home.jpeg);
+    min-height: 65vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.head2 strong{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #F1BD7A;
+    font-size: 4.3em;
+}
+
+
+.ingr{
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3em;
+    padding: 3em 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingr span{
+    background-color:#65B13B ;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+
+.p{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-align: left;
+    max-width: 400px;
+    min-width: 400px;
+    
+
+}
+
+.foto{
+    display: grid;
+    grid-template-rows: 8fr 8fr;
+    grid-template-columns: 10fr 9fr;
+    grid-template-areas:
+        "img1 img3"
+        "img2 img3";
+    grid-gap: 2rem;
+    padding: 0 35px;
+
+    }
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto .ft1{
+    grid-area: img1;
+}
+
+.foto .ft2{
+    grid-area: img2;
+}
+
+.foto .ft3{
+    grid-area: img3;
+}
+
+
+.breads{
+    display: flex;
+    flex-direction: column;
+    margin: 170px 120px;
+    text-align: left;
+    
+
+}
+
+#brd{
+    float: left;
+}
+
+.left{
+    float: left;
+}
+
+.breads h1{
+    color: #65B13B;
+}
+
+.breads strong{
+    color: white;
+}
+
+.minih{
+    display: flex;
+    font-size: 2.8rem;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 26px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+
+#brd p{
+    display: block;
+    font-family: 'Outfit', sans-serif; 
+    max-width: 10000px;
+    min-width: 1000px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    font-size: 1.1rem;
+}
+
+#brd img{
+    display: block;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.bckgr2 img{
+    width: 100%;
+    height: 100%;    
+}
+
+.heading{
+    color: #65B13B;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 30rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #65B13B;
+    opacity: 0.8;
+    font-family: 'Outfit', sans-serif;
+}
+
+.btn:hover{
+    color: white;
+    background-color: aquamarine;
+}
+
+.box-container{
+    display: inline-grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    margin: 5px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: white;
+    width: fit-content;
+
+}
+
+.box-container img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.box-container .box p{
+    display: block;
+    width: 350px;
+    text-align: left;
+    padding: 20px 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.box-container .box h2{
+    display: block;
+    font-size: 2rem;
+    color: #65B13B;
+    font-family: 'Otomanopee One', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.map{
+    display: block;
+    margin-left: 120px;
+    float: left;
+}
+
+.cntt{
+    display: block;
+    margin-bottom: 260px;
+}
+
+.cnt{
+    display: block;
+    padding-left: 60px;
+}
+
+
+.cnt h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.9rem;
+    
+}
+
+.cnt p{
+    font-family:'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.end{
+    background-color: #65B13B;
+    align-items: center;
+    display: flex;
+    letter-spacing: 1em;
+    padding: 0 3%;
+    
+}
+
+.end .elq{
+    padding-left: 25px;
+    display: flex;
+   
+}
+/*
+*/
